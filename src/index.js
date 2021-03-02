@@ -30,3 +30,10 @@ ref.insertAdjacentElement("beforebegin", nodo); //->Lo inserta antes de la refer
 ref.insertAdjacentElement("afterbegin", nodo); //->Lo coloca justo después de donde inica mi referencia
 ref.insertAdjacentElement("beforeend", nodo); //->Lo coloca justo antes de donde cierra mi referencia
 ref.insertAdjacentElement("afterend", nodo); //->Lo coloca después del cierre del nodo de referencia
+
+const content = document.querySelector("#textarea");
+const btn = document.querySelector(".btn");
+const trad = document.querySelector(".trad");
+btn.addEventListener("click", () => {
+  trad.innerHTML = content.value;
+});
