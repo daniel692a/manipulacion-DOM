@@ -1,0 +1,15 @@
+{
+  "name": "jsdom",
+  "version": "1.0.0",
+  "description": "Aprendiendo la manipulación del DOM con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "DOM"
+  ],
+  "author": "Daniel Armas",
+  "license": "MIT"
+}
