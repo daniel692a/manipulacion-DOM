@@ -148,7 +148,7 @@ Para comprender un como más veamos el siguiente ejemplo:
   node.outerHTML()
   ```
 
-  Nos sirve para leer HTML porque transforma el nodo sellecionado y tranforma todo su contenido a String
+  Nos sirve para leer HTML porque transforma el nodo selecionado y tranforma todo su contenido a String
 
 * ```javascript
   node.innerHTML()
