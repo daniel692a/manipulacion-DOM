@@ -20,3 +20,13 @@ const node = document.createElement("h2");
 const parentElement = document.querySelector(".form");
 const reference = document.querySelector(".name");
 parentElement.insertBefore(node, reference);
+
+/* insertAdjacentElement */
+const nodo = document.createElement("span");
+nodo.append("OWO");
+const ref = document.querySelector(".title");
+console.log(ref, nodo);
+ref.insertAdjacentElement("beforebegin", nodo); //->Lo inserta antes de la referencia
+ref.insertAdjacentElement("afterbegin", nodo); //->Lo coloca justo después de donde inica mi referencia
+ref.insertAdjacentElement("beforeend", nodo); //->Lo coloca justo antes de donde cierra mi referencia
+ref.insertAdjacentElement("afterend", nodo); //->Lo coloca después del cierre del nodo de referencia
