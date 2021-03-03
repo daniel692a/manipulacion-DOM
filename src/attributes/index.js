@@ -1,4 +1,5 @@
 const input = document.createElement("input");
+/* Atributos */
 input.type = "text";
 input.placeholder = "Inserta tu nombre";
 input.autocomplete = "name";
